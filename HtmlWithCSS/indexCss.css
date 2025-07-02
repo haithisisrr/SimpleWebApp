@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  li {
+    float: right;
+  }
+  li  {
+    display: block;
+    color: rgb(34, 33, 33);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li:hover {
+    background-color: rgb(247, 241, 241);
+  }
+
+  .button{
+      color: rgb(247, 226, 168);
+      border: none;
+      background-color: rgb(212, 169, 104);
+      border-radius: 15px;
+      padding-left: 5px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-right: 5px;
+      align-items: center;
+      cursor: pointer;
+     
+      
+  }
+ 
+  .fontcolor{
+      color: brown;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
