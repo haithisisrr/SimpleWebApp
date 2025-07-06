@@ -5,7 +5,7 @@
 .header{
     padding-top: 10px;
     
-  background-image:url(/improvedCSS/logo/wk.jpg);
+  background-image:url(/mexantEmployeRestrations/logo/wk.jpg);
      height: 615px;
      
       
@@ -67,7 +67,7 @@ a:hover{
      
 } 
 .ContactSp{
-    padding-right: 100px;
+    padding-right: 80x;
      font-size: 20px;
      
     
@@ -144,3 +144,97 @@ a:hover{
   
   color: aliceblue;
 }
+/* .FormDivide> div {
+  background-color: #f39f9f;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.FormDivide {
+  display: flex;
+  flex-wrap: nowrap;
+  
+ 
+} */
+ .FormDivide{
+    float: right;
+    display: inline-block;
+    background-color: #f2f2f2;
+    margin-top: 60px;
+    width: 650px;
+ }
+
+.FormSection {
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 650px;
+  float: left;
+  margin-top: 60px;
+
+
+  
+  
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=radio], select {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin: 8px 0;
+  
+  
+}
+input[type=checkbox], select {
+    margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 10px;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid white;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .delete-btn {
+            padding: 4px 8px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
